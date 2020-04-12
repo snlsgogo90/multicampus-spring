@@ -7,6 +7,7 @@ public class Test {
 	
 	public static void main(String[] args) {
 		
+		// 컨테이너 빌드
 		ApplicationContext ctxt = new GenericXmlApplicationContext("applicationContext.xml");
 		
 		System.out.println("???");
