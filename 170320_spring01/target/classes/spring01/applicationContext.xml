@@ -4,10 +4,10 @@
 	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 	
 	<!-- 
-			lazy-init      : 객체 생성 시점(true, false)
-			scope          : 객체 생성 범위 (singleton, prototype, request, session)
-			init-method    : 생성 동작
-			destroy-method : 소멸 동작
+		lazy-init      : 객체 생성 시점(true, false)
+		scope          : 객체 생성 범위 (singleton, prototype, request, session)
+		init-method    : 생성 동작
+		destroy-method : 소멸 동작
 	 -->
 	<bean id="gr" class="spring01.Greeting" 
 		lazy-init="false" scope="singleton" init-method="initObj" destroy-method="destObj"></bean>
